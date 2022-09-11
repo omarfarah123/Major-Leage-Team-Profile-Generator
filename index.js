@@ -42,12 +42,12 @@ const employeeIDs = [];
             message: "Please enter the employee Id",
             //Checks if employee id being entered is valid 
             validate : function (employeeId){
-                if(employeeId.trim().length === 0){
-                  console.log(chalk.red("No ID entered"))
-                  return false;
-                } else if (employeeIDs.includes(employeeId)) {
-                  console.log('⛔️ ID has already been taken');
-                  return false;
+                if (employeeIDs.includes(employeeId)) {
+                    console.log(chalk.red(' ID has already been taken'));
+                    return false;
+                } else if(employeeId.trim().length === 0){
+                     console.log(chalk.red("No ID entered"))
+                     return false;
                 } else {
                   return true;
                 }
@@ -138,17 +138,16 @@ function engineer(){
             name: "employeeId",
             message: "Please enter the Employee Id",
             validate : function (employeeId){
-                if(employeeId.trim().length === 0){
-                  console.log(chalk.red("No ID entered"))
-                  return false;
-                } else if (employeeIDs.includes(employeeId)) {
-                  console.log('⛔️ ID has already been taken');
-                  return false;
+                if (employeeIDs.includes(employeeId)) {
+                    console.log(chalk.red(' ID has already been taken'));
+                    return false;
+                } else if(employeeId.trim().length === 0){
+                     console.log(chalk.red("No ID entered"))
+                     return false;
                 } else {
                   return true;
                 }
-          }
-            
+          } 
         },
         {
             type: "input",
@@ -207,15 +206,15 @@ function intern(){
             name: "employeeId",
             message: "Please enter the Intern Id",
             validate : function (employeeId){
-                  if(employeeId.trim().length === 0){
-                    console.log(chalk.red("No ID entered"))
+                if (employeeIDs.includes(employeeId)) {
+                    console.log(chalk.red(' ID has already been taken'));
                     return false;
-                  } else if (employeeIDs.includes(employeeId)) {
-                    console.log('⛔️ ID has already been taken');
-                    return false;
-                  } else {
-                    return true;
-                  }
+                } else if(employeeId.trim().length === 0){
+                     console.log(chalk.red("No ID entered"))
+                     return false;
+                } else {
+                  return true;
+                }
             }
         },
         {
@@ -252,7 +251,7 @@ function intern(){
             
         }
     ]).then((response) => {
-        employeeTeam.push(new Intern(response.name, response.employeeId, response.email, response.github))
+        employeeTeam.push(new Intern(response.name, response.employeeId, response.email, response.school))
         console.log(chalk.green(`${response.name} added to team`))
         main()
     })
