@@ -12,7 +12,8 @@
   * [Testing](#testing)
   
   
-![Screenshot (149)](https://user-images.githubusercontent.com/76454677/189510569-d3465af1-dba0-4b40-8851-4b5d717d53a5.png)
+![Screenshot (150)](https://user-images.githubusercontent.com/76454677/189510885-5ae764b0-8a04-4854-b877-a89c5e6739b5.png)
+
 
 ## Description
 Create stunning page to view your tech team with all of their information in the blink of an eye!
