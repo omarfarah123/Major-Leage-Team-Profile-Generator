@@ -14,6 +14,8 @@
   
 ![Screenshot (150)](https://user-images.githubusercontent.com/76454677/189510885-5ae764b0-8a04-4854-b877-a89c5e6739b5.png)
 
+##App Walkthrough
+https://drive.google.com/file/d/1WfnOmX-0mbQ_W7ij6Tiw62WPyxx42wCk/view
 
 ## Description
 Create stunning page to view your tech team with all of their information in the blink of an eye!
