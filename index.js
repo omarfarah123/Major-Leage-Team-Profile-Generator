@@ -277,9 +277,9 @@ function pageCreation(){
           <div class="members">`;
           for(let i = 0; i < employeeTeam.length; i++){
                  var role = employeeTeam[i].getRole()
-                 var name = `Name: ${employeeTeam[i].name}`;
+                 var name = `Name: ${employeeTeam[i].getName()}`;
                  var id = `ID: ${employeeTeam[i].id}`;
-                 var email = `Email: ${employeeTeam[i].email}`;
+                 var email = `Email: ${employeeTeam[i].getEmail()}`;
                  var specific;
                 if(employeeTeam[i].getRole() == 'Manager'){
                     role += `🧑‍💼`;
