@@ -1,4 +1,5 @@
 # Major Leauge Team Generator
+
 [![License](https://img.shields.io/badge/License-Academic%20Free%20License%20v3.0-green.svg)](https://opensource.org/licenses/AFL-3.0)
 #### Table of Contents
 - [All=Pro-README-Generator](#all-pro-readme-generator)
@@ -9,6 +10,9 @@
   * [License](#license)
   * [Contribution](#contribution)
   * [Testing](#testing)
+  
+  
+![Screenshot (149)](https://user-images.githubusercontent.com/76454677/189510569-d3465af1-dba0-4b40-8851-4b5d717d53a5.png)
 
 ## Description
 Create stunning page to view your tech team with all of their information in the blink of an eye!
@@ -24,7 +28,7 @@ Open source contribution
 Testing Unrestricted
 ## Questions
 This project is managed by omarfarah123
-You can find me on github at https://github.com/undefined
+You can find me on github at https://github.com/omarfarah123
 Additional Questions you can email me at cronogy@gmail.com
 ### License
 The software is available to all under the Academic Free License v3.0. You can learn more about this license at https://opensource.org/licenses/AFL-3.0
