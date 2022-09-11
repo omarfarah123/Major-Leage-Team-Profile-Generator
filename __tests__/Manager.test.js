@@ -1,4 +1,4 @@
-const Intern = require('../lib/Intern');
+
 const Manager = require('../lib/Manager');
 
 describe('Manager', () => {
@@ -16,7 +16,9 @@ describe('Manager', () => {
         });
     });
     describe("getRole()", () => {
+      it("should return the role as Manager", () => {
         const obj = new Manager("Omar", "omarfarah@gmail.com", 3, 221);
         expect(obj.getRole()).toEqual("Manager");
+      })
     })
 })
